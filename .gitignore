@@ -32,4 +32,4 @@ node_modules/
 # yarn.lock
 
 # Secrets
-.env.development
+.env
