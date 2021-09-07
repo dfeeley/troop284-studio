@@ -1,6 +1,6 @@
 export default {
   // This is the display name for the type
-  title: "Activity",
+  title: "Recent",
   
   // The identifier for this document type used in the api's
   name: "activity",

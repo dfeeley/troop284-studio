@@ -4,7 +4,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
-import activity from './activity.js'
+import recent from './recent.js'
 import activityShowcase from './activityShowcase.js'
 import activityPage from './activityPage.js'
 import frontPage from './frontPage.js'
@@ -22,7 +22,7 @@ export default createSchema({
     frontPageSection,
     activityPage,
     activityShowcase,
-    activity,
+    recent,
     upcoming,
   ]),
 })
