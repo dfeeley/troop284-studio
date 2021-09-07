@@ -3,7 +3,7 @@ export default {
   title: "Recent",
   
   // The identifier for this document type used in the api's
-  name: "activity",
+  name: "recent",
   
   // Documents have the type 'document'. Your schema may describe types beyond documents
   // but let's get back to that later.
