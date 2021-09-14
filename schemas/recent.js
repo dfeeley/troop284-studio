@@ -1,3 +1,5 @@
+import activityMapPin from './activityMapPin'
+
 export default {
   // This is the display name for the type
   title: "Recent",
@@ -50,6 +52,7 @@ export default {
       name: 'location',
       type: 'geopoint'
     },
+    activityMapPin,
     {
       title: "Other Images",
       name: "otherimages",
@@ -59,6 +62,11 @@ export default {
           type: "image"
         }
       ]
+    },
+    {
+      title: "Photo Album",
+      name: "photoalbum",
+      type: "string",
     },
   ]
 }

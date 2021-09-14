@@ -1,3 +1,5 @@
+import activityMapPin from './activityMapPin'
+
 export default {
   // This is the display name for the type
   title: "Upcoming",
@@ -50,5 +52,6 @@ export default {
       name: 'location',
       type: 'geopoint'
     },
+    activityMapPin,
   ]
 }
