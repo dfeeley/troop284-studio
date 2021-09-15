@@ -10,6 +10,7 @@ import activityPage from './activityPage.js'
 import frontPage from './frontPage.js'
 import frontPageSection from './frontPageSection.js'
 import upcoming from './upcoming.js'
+import verbiage from './verbiage.js'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,5 +25,6 @@ export default createSchema({
     activityShowcase,
     recent,
     upcoming,
+    verbiage,
   ]),
 })

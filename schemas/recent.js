@@ -19,6 +19,12 @@ export default {
       type: "string",
     },
     {
+      title: "Subtitle",
+      name: "subtitle",
+      type: "string",
+      description: "Usually the date (August 20xx) of the activity"
+    },
+    {
       title: "Slug",
       name: "slug",
       type: "slug",

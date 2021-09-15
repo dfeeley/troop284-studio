@@ -1,12 +1,11 @@
-import activityShowcase from './activityShowcase'
 import pageStatus from './pageStatus'
 
 export default {
   // This is the display name for the type
-  title: "Activities Page",
+  title: "Misc. Verbiage",
   
   // The identifier for this document type used in the api's
-  name: "activityPage",
+  name: "verbiage",
   
   // Documents have the type 'document'. Your schema may describe types beyond documents
   // but let's get back to that later.
@@ -14,9 +13,10 @@ export default {
   
   // Now we proceed to list the fields of our document
   fields: [
+    pageStatus,
     {
-      title: "Intro",
-      name: "intro",
+      title: "Recent Page Preamble",
+      name: "recent_preamble",
       type: "array",
       of: [
         {
@@ -24,25 +24,15 @@ export default {
         }
       ]
     },
-    pageStatus,
     {
-      title: "Image",
-      name: "image",
-      type: "image",
-    },
-    {
-      title: "Sections",
-      name: "sections",
+      title: "Upcoming Page Preamble",
+      name: "upcoming_preamble",
       type: "array",
       of: [
         {
-          type: "reference",
-          to: [
-            {type: 'activityShowcase'}
-          ],
+          type: "block"
         }
       ]
     },
   ]
 }
-

@@ -1,4 +1,5 @@
 import frontPageSection from './frontPageSection.js'
+import pageStatus from './pageStatus'
 
 export default {
   // This is the display name for the type
@@ -13,17 +14,7 @@ export default {
   
   // Now we proceed to list the fields of our document
   fields: [
-    {
-      title: "Status",
-      name: "status",
-      type: "string",
-      options: {
-        list: [
-          {title: "Draft", value: "draft"},
-          {title: "Final", value: "final"},
-        ],
-      },
-    },
+    pageStatus,
     {
       title: "Sections",
       name: "sections",
