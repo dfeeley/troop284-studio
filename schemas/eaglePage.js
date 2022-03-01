@@ -21,6 +21,11 @@ export default {
     },
     pageStatus,
     {
+      title: "Badge",
+      name: "badge",
+      type: "image",
+    },
+    {
       title: "Sections",
       name: "sections",
       type: "array",
