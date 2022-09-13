@@ -11,6 +11,7 @@ import frontPage from './frontPage.js'
 import frontPageSection from './frontPageSection.js'
 import upcoming from './upcoming.js'
 import verbiage from './verbiage.js'
+import knowledgeCenterPage from './knowledgeCenterPage.js'
 import eaglePage from './eaglePage.js'
 import eaglePageSection from './eaglePageSection.js'
 
@@ -29,6 +30,7 @@ export default createSchema({
     upcoming,
     eaglePage,
     eaglePageSection,
+    knowledgeCenterPage,
     verbiage,
   ]),
 })
