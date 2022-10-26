@@ -13,6 +13,7 @@ import upcoming from './upcoming.js'
 import verbiage from './verbiage.js'
 import knowledgeCenterPage from './knowledgeCenterPage.js'
 import documentLibraryLinks from './documentLibrary.js'
+import bookmarks from './bookmarks.js'
 import eaglePage from './eaglePage.js'
 import eaglePageSection from './eaglePageSection.js'
 
@@ -34,5 +35,6 @@ export default createSchema({
     knowledgeCenterPage,
     verbiage,
     documentLibraryLinks,
+    bookmarks,
   ]),
 })
