@@ -16,6 +16,7 @@ import documentLibraryLinks from './documentLibrary.js'
 import bookmarks from './bookmarks.js'
 import eaglePage from './eaglePage.js'
 import eaglePageSection from './eaglePageSection.js'
+import meritBadges from './meritBadges.js'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -36,5 +37,6 @@ export default createSchema({
     verbiage,
     documentLibraryLinks,
     bookmarks,
+    meritBadges,
   ]),
 })

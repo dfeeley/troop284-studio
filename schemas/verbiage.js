@@ -3,14 +3,14 @@ import pageStatus from './pageStatus'
 export default {
   // This is the display name for the type
   title: "Misc. Verbiage",
-  
+
   // The identifier for this document type used in the api's
   name: "verbiage",
-  
+
   // Documents have the type 'document'. Your schema may describe types beyond documents
   // but let's get back to that later.
   type: "document",
-  
+
   // Now we proceed to list the fields of our document
   fields: [
     pageStatus,
@@ -34,5 +34,25 @@ export default {
         }
       ]
     },
+    {
+      title: "Merit Badge Page Preamble",
+      name: "merit_badge_preamble",
+      type: "array",
+      of: [
+        {
+          type: "block"
+        }
+      ]
+    },
+    {
+      title: "Merit Badge Eagle Required Preamble",
+      name: "merit_badge_eagle_preamble",
+      type: "array",
+      of: [
+        {
+          type: "block"
+        }
+      ]
+    }
   ]
 }
